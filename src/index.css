@@ -15,3 +15,25 @@ body {
   padding: 30px;
   border-radius: 15px;
 }
+
+.search-input {
+  background: rgba(247, 197, 167, 0.4);
+  border: none;
+  border-radius: 6px;
+  padding: 15px 20px;
+  width: 80%;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: rgb(214, 145, 173);
+  border: none;
+  border-radius: 6px;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
