@@ -46,7 +46,58 @@ header {
 .search-button:hover {
   cursor: pointer;
 }
+main {
+  padding: 10px 0;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 800;
+}
 
+h2 {
+  text-align: center;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-app-temperature {
+  font-size: 88px;
+  font-weight: bold;
+  position: relative;
+  left: 25px;
+}
+
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 25px;
+  position: relative;
+  left: -23px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.weather-app-details strong {
+  color: rgb(211, 140, 173);
+}
 footer {
   padding: 25px 0 0 0;
   border-top: 1px solid rgb(255, 210, 165);
