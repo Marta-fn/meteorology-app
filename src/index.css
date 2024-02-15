@@ -8,6 +8,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  color: rgb(211, 140, 173);
+}
+
+header {
+  border-bottom: 1px solid rgb(255, 210, 165);
+  padding: 0 0 25px 0;
+}
+
 .weather-app {
   background: white;
   max-width: 600px;
@@ -17,7 +26,7 @@ body {
 }
 
 .search-input {
-  background: rgba(247, 197, 167, 0.4);
+  background: rgba(255, 210, 165, 0.4);
   border: none;
   border-radius: 6px;
   padding: 15px 20px;
@@ -26,7 +35,7 @@ body {
 }
 
 .search-button {
-  background-color: rgb(214, 145, 173);
+  background-color: rgb(211, 140, 173);
   border: none;
   border-radius: 6px;
   padding: 15px 20px;
@@ -36,4 +45,12 @@ body {
 
 .search-button:hover {
   cursor: pointer;
+}
+
+footer {
+  padding: 25px 0 0 0;
+  border-top: 1px solid rgb(255, 210, 165);
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
 }
