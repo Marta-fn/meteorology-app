@@ -68,23 +68,18 @@ h2 {
   justify-content: space-around;
 }
 
-.weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
-}
-
 .weather-app-temperature {
   font-size: 88px;
   font-weight: bold;
   position: relative;
-  left: 25px;
+  left: 15px;
 }
 
 .weather-app-unit {
   margin-top: 16px;
   font-size: 25px;
   position: relative;
-  left: -23px;
+  left: -20px;
 }
 
 .weather-app-details {
