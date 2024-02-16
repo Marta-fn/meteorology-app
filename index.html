@@ -11,6 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="src/index.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -22,14 +23,14 @@
       </form>
     </header>
     <main>
-      <h1 id="weather-app-city">Viseu</h1>
+      <h1 id="weather-app-city"></h1>
       <h2>Wednesday, 15:46</h2>
       <div class="weather-app-data">
         <div class="weather-app-icon">
           ☀️
         </div>
-        <div class="weather-app-temperature">
-          24 </div>
+        <div class="weather-app-temperature" id="weather-app-temperature">
+        </div>
         <span class="weather-app-unit">
           ºC
         </span>
