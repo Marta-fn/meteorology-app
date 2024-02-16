@@ -16,13 +16,13 @@
 <body>
   <div class="weather-app">
     <header>
-      <form class="search-form">
-        <input type="search" placeholder="Enter a city..." class="search-input" />
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city..." class="search-input" id="search-form-input" />
         <input type="submit" value="Search" class="search-button">
       </form>
     </header>
     <main>
-      <h1>Viseu</h1>
+      <h1 id="weather-app-city">Viseu</h1>
       <h2>Wednesday, 15:46</h2>
       <div class="weather-app-data">
         <div class="weather-app-icon">
@@ -48,6 +48,7 @@
         href="https://marta-meteorology-app.netlify.app/" target="_blank">Netlify</a>
     </footer>
   </div>
+  <script src="src/index.js"></script>
 </body>
 
 </html>
