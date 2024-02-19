@@ -59,4 +59,31 @@ function submitSearch(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", submitSearch);
 
+function displayForecast() {
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `<div class="weather-forecast-day">
+      <div class="weather-forecast-date">
+          ${day}
+        </div>
+        <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt="weather-icon"
+          class="weather-forecast-icon">
+        <div class="weather-forecast-temperatures">
+          <strong>
+          12º
+          </strong>
+           9º
+        </div>
+        </div>`;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 searchCity("Viseu");
+displayForecast();
