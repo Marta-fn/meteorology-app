@@ -100,3 +100,18 @@ footer {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
 }
+
+.weather-app-forecast {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+}
+
+.weather-forecast-icon {
+  width: 10%;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+  color: rgb(211, 140, 173);
+}
