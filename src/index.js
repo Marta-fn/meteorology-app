@@ -1,3 +1,14 @@
+function changeTheme() {
+  let body = document.querySelector("body");
+  body.classList.toggle("night-theme");
+  if (body.className === "night-theme") {
+    let themeButton = document.querySelector("button");
+    themeButton.innerHTML = `Light Theme`;
+  } else {
+    themeButton.innerHTML = `Night Theme`;
+  }
+}
+
 function updateWeather(response) {
   let currtentTemperature = document.querySelector("#weather-app-temperature");
   let cityElement = document.querySelector("#weather-app-city");
@@ -99,5 +110,8 @@ function displayForecast(response) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", submitSearch);
+
+let themeButton = document.querySelector("button");
+themeButton.addEventListener("click", changeTheme);
 
 searchCity("Viseu");
