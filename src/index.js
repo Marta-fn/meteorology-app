@@ -3,7 +3,7 @@ function changeTheme() {
   body.classList.toggle("night-theme");
   if (body.className === "night-theme") {
     let themeButton = document.querySelector("button");
-    themeButton.innerHTML = `Light Theme`;
+    themeButton.innerHTML = `Day Theme`;
   } else {
     themeButton.innerHTML = `Night Theme`;
   }
